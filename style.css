@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+.jumbotron {
+  padding-top: 2rem;
+  background-color: #00cba9;
+  background-image: url(./img/bg4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.Teks{
+  background-color: #a2d9ff;
+}
+.jumbotron h1{
+  font-size: 70px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.teks-diam{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.jumbotron p{
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.About {
+  padding-top: 2.5rem;
+  background-color: #00cba9;
+  background-image: url(./img/bg6.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#Projects{
+  padding-top: 2rem;
+  text-align: center;
+  background-color: #00cba9;
+  background-image: url(./img/bg5.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+#Contact{
+  text-align: center;
+  padding-top: 2rem;
+  background: linear-gradient(to right, #ef32d9, #89fffd);
+  background-position: center;
+}
+#Contact label{
+  padding-top: 2rem;
+}
